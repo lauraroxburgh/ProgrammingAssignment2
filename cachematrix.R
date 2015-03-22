@@ -1,6 +1,8 @@
 ## Two functions are defined here, makeCacheMatrix & cacheSolve
-## The purpose of these functions is to calculate the inverse of a matrix.  Note- rather than simply performing the inversion, they cache the result of the inversion.
-##Means that if the same call is made again, the cached results is returned and avoids having to compute the results again.
+## The purpose of these functions is to calculate the inverse of a matrix.  
+## Note- rather than simply performing the inversion, they cache the result of the inversion.
+## This means that if the same call is made again, the cached results is returned and avoids 
+## having to compute the results again.
  
  
 ###   “makeCacheMatrix” creates a special "vector" a list containing a function to:
